@@ -29,7 +29,7 @@ Meteor.subscribe('sheets', {
     var hot = new Handsontable(document.getElementById("sheet"), {
       data: data,
       rowHeaders: true,
-      colHeaders: ['合計','値1','値2','値3','値4','値5','値6','値7','値8','値9'],
+      colHeaders: ['Sum','Value 1','Value 2','Value 3','Value 4','Value 5','Value 6','Value 7','Value 8','Value 9'],
       contextMenu: true,
       formulas: true
     });
